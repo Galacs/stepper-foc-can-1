@@ -4913,6 +4913,129 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Mechanical:MountingHole_Pad"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom no)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "H"
+				(at 0 6.35 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "MountingHole_Pad"
+				(at 0 4.445 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Mounting Hole with connection"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "mounting hole"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "MountingHole*Pad*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "MountingHole_Pad_0_1"
+				(circle
+					(center 0 1.27)
+					(radius 1.27)
+					(stroke
+						(width 1.27)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "MountingHole_Pad_1_1"
+				(pin input line
+					(at 0 -2.54 90)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Motor:Stepper_Motor_bipolar"
 			(pin_names
 				(offset 0)
@@ -6658,6 +6781,18 @@
 		(uuid "7323ed32-2023-4e08-9609-57d12dc4c69f")
 	)
 	(rectangle
+		(start 13.97 142.24)
+		(end 38.1 156.21)
+		(stroke
+			(width 0)
+			(type dash)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "9236ef9a-7e89-42a1-86e4-02a35a5a87bf")
+	)
+	(rectangle
 		(start 13.97 158.75)
 		(end 66.04 196.85)
 		(stroke
@@ -6692,6 +6827,18 @@
 			(type none)
 		)
 		(uuid "fb0c9265-561b-485b-9770-f47ecc6cd2ba")
+	)
+	(text "Mounting"
+		(exclude_from_sim no)
+		(at 22.352 154.178 0)
+		(effects
+			(font
+				(size 1.778 1.778)
+				(thickness 0.508)
+				(bold yes)
+			)
+		)
+		(uuid "169ea425-59a6-436e-b43c-8013ea6158ec")
 	)
 	(text "AS5047P\nHall Sensor"
 		(exclude_from_sim no)
@@ -6857,6 +7004,12 @@
 		(uuid "1d5fc9d7-53f6-4819-9144-b84f111443ca")
 	)
 	(junction
+		(at 29.21 151.13)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1ea93e79-fce2-4afb-99d2-edbfbfa451dd")
+	)
+	(junction
 		(at 198.12 138.43)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6945,6 +7098,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "5b8847ac-7c8f-4b9c-ae1c-5f44638a607b")
+	)
+	(junction
+		(at 34.29 151.13)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5eb365f8-3bec-4a24-bfc8-76b8766dc8a2")
 	)
 	(junction
 		(at 111.76 45.72)
@@ -7065,6 +7224,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b3e92eca-27ac-421f-85e6-cc1bebf44880")
+	)
+	(junction
+		(at 24.13 151.13)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b63b3486-a7e2-4c12-939e-05afdff75f6f")
 	)
 	(junction
 		(at 210.82 148.59)
@@ -7870,6 +8035,16 @@
 	)
 	(wire
 		(pts
+			(xy 19.05 151.13) (xy 19.05 149.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2dcaee13-ff83-4006-8724-dab84ca3012b")
+	)
+	(wire
+		(pts
 			(xy 149.86 187.96) (xy 149.86 186.69)
 		)
 		(stroke
@@ -7907,6 +8082,16 @@
 			(type default)
 		)
 		(uuid "32045dbe-c96e-453c-9768-50e985a25665")
+	)
+	(wire
+		(pts
+			(xy 34.29 149.86) (xy 34.29 151.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "33996ad8-a7ef-4b3c-810d-4c799284f7bc")
 	)
 	(wire
 		(pts
@@ -7967,6 +8152,16 @@
 			(type default)
 		)
 		(uuid "3d544e68-f005-4e60-a474-9287ccb7376c")
+	)
+	(wire
+		(pts
+			(xy 29.21 151.13) (xy 34.29 151.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3d6c187f-11cd-4093-9f21-91709a6e3760")
 	)
 	(wire
 		(pts
@@ -8137,6 +8332,16 @@
 			(type default)
 		)
 		(uuid "48fe53ed-4b73-4f0b-a384-73e2fbf48c94")
+	)
+	(wire
+		(pts
+			(xy 34.29 151.13) (xy 35.56 151.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4b3f4b14-c578-43f4-b9cb-54ceed1e06cb")
 	)
 	(wire
 		(pts
@@ -8400,6 +8605,16 @@
 	)
 	(wire
 		(pts
+			(xy 24.13 151.13) (xy 29.21 151.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "68c9acd1-2786-4aac-bec0-777a5bef622f")
+	)
+	(wire
+		(pts
 			(xy 134.62 171.45) (xy 133.35 171.45)
 		)
 		(stroke
@@ -8467,6 +8682,16 @@
 			(type default)
 		)
 		(uuid "6e63ef61-d692-48b6-bf02-874064b9b186")
+	)
+	(wire
+		(pts
+			(xy 19.05 151.13) (xy 24.13 151.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "709c95b9-893d-434d-b5dd-455ef006014e")
 	)
 	(wire
 		(pts
@@ -8717,6 +8942,16 @@
 			(type default)
 		)
 		(uuid "87ca2f0a-2c2f-4904-8e6b-1077c4461bb3")
+	)
+	(wire
+		(pts
+			(xy 35.56 151.13) (xy 35.56 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8a22ad08-b66c-43b1-a682-ba5b12e7d285")
 	)
 	(wire
 		(pts
@@ -9710,6 +9945,16 @@
 	)
 	(wire
 		(pts
+			(xy 29.21 149.86) (xy 29.21 151.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d356b725-dd97-4964-bc53-cf787edf62a1")
+	)
+	(wire
+		(pts
 			(xy 255.27 148.59) (xy 265.43 148.59)
 		)
 		(stroke
@@ -9887,6 +10132,16 @@
 			(type default)
 		)
 		(uuid "e0f862d5-b5c4-4d66-b82b-872a2ba2af7c")
+	)
+	(wire
+		(pts
+			(xy 24.13 149.86) (xy 24.13 151.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e18550a4-5feb-4c5e-b8a0-9d05f1817bf8")
 	)
 	(wire
 		(pts
@@ -12526,6 +12781,84 @@
 			(project "stepper-foc-can-1"
 				(path "/7e511d2f-8abe-4907-a647-133ba6c8a8df"
 					(reference "C15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 34.29 147.32 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "296887b9-68a5-4f34-bec2-82f605144dbf")
+		(property "Reference" "H4"
+			(at 30.734 148.844 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole_Pad"
+			(at 38.1 146.05 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_Pad_Via"
+			(at 34.29 147.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 34.29 147.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Mounting Hole with connection"
+			(at 34.29 147.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "7f7301e6-d68e-4c6a-a0a6-04150d6ee201")
+		)
+		(instances
+			(project "stepper-foc-can-1"
+				(path "/7e511d2f-8abe-4907-a647-133ba6c8a8df"
+					(reference "H4")
 					(unit 1)
 				)
 			)
@@ -17026,6 +17359,84 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 35.56 152.4 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "82b97ac6-7e47-4008-b49f-ee3cf63ace5a")
+		(property "Reference" "#PWR072"
+			(at 35.56 158.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 35.306 156.972 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 35.56 152.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 35.56 152.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 35.56 152.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "67860413-aa6c-4c32-9dd0-4b071f3d7d3b")
+		)
+		(instances
+			(project "stepper-foc-can-1"
+				(path "/7e511d2f-8abe-4907-a647-133ba6c8a8df"
+					(reference "#PWR072")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 250.19 133.35 90)
 		(unit 1)
@@ -17854,6 +18265,84 @@
 		)
 	)
 	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 19.05 147.32 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "9a24c6a1-ceb7-4dc7-8be4-90b7fafd0385")
+		(property "Reference" "H1"
+			(at 15.494 148.844 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole_Pad"
+			(at 22.86 146.05 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_Pad_Via"
+			(at 19.05 147.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 19.05 147.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Mounting Hole with connection"
+			(at 19.05 147.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "03fd7b47-ef7a-46c2-bd0d-0d757aef90c4")
+		)
+		(instances
+			(project "stepper-foc-can-1"
+				(path "/7e511d2f-8abe-4907-a647-133ba6c8a8df"
+					(reference "H1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 149.86 143.51 0)
 		(unit 1)
@@ -18289,6 +18778,84 @@
 			(project "stepper-foc-can-1"
 				(path "/7e511d2f-8abe-4907-a647-133ba6c8a8df"
 					(reference "R5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 29.21 147.32 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "a1ac2903-cfdb-4802-b0a8-63d2f8084eb7")
+		(property "Reference" "H3"
+			(at 25.654 148.844 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole_Pad"
+			(at 33.02 146.05 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_Pad_Via"
+			(at 29.21 147.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 29.21 147.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Mounting Hole with connection"
+			(at 29.21 147.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "fb874b01-f070-4f80-a01b-f0eb9162a415")
+		)
+		(instances
+			(project "stepper-foc-can-1"
+				(path "/7e511d2f-8abe-4907-a647-133ba6c8a8df"
+					(reference "H3")
 					(unit 1)
 				)
 			)
@@ -19757,6 +20324,84 @@
 			(project "stepper-foc-can-1"
 				(path "/7e511d2f-8abe-4907-a647-133ba6c8a8df"
 					(reference "J1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 24.13 147.32 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "bc59dda4-2b19-440c-9bb4-a223a2b17a65")
+		(property "Reference" "H2"
+			(at 20.574 148.844 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole_Pad"
+			(at 27.94 146.05 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_Pad_Via"
+			(at 24.13 147.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 24.13 147.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Mounting Hole with connection"
+			(at 24.13 147.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "89a19b15-83b1-4063-a148-34098a70bfd7")
+		)
+		(instances
+			(project "stepper-foc-can-1"
+				(path "/7e511d2f-8abe-4907-a647-133ba6c8a8df"
+					(reference "H2")
 					(unit 1)
 				)
 			)
