@@ -5490,24 +5490,26 @@
 			(on_board yes)
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "U"
-				(at -8.89 11.43 0)
+			(property "Reference" "U4"
+				(at -7.112 11.43 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left)
 				)
 			)
-			(property "Value" "AS5047D"
-				(at 5.08 11.43 0)
+			(property "Value" "AS5047P"
+				(at 2.032 11.684 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left)
 				)
 			)
 			(property "Footprint" "Package_SO:TSSOP-14_4.4x5mm_P0.65mm"
@@ -5521,7 +5523,7 @@
 					)
 				)
 			)
-			(property "Datasheet" "https://ams.com/documents/20143/36005/AS5047D_DS000394_2-00.pdf"
+			(property "Datasheet" "https://look.ams-osram.com/m/d05ee39221f9857/original/AS5047P-DS000324.pdf"
 				(at -19.05 -13.97 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -5871,7 +5873,7 @@
 						)
 					)
 				)
-				(pin power_out line
+				(pin power_in line
 					(at -12.7 -5.08 0)
 					(length 2.54)
 					(name "VDD3V3"
@@ -7160,6 +7162,12 @@
 		(color 0 0 0 0)
 		(uuid "f0d6c7e1-00ff-4d12-8dc6-b0d792135829")
 	)
+	(junction
+		(at 38.1 191.77)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f741defd-65a4-4060-a96a-72bda4362b84")
+	)
 	(no_connect
 		(at 120.65 125.73)
 		(uuid "047d90f0-34fa-4952-b9de-99ce4021d3a1")
@@ -7263,10 +7271,6 @@
 	(no_connect
 		(at 85.09 72.39)
 		(uuid "ef6fce20-5fe9-4a4b-bc3b-0f715eabe678")
-	)
-	(no_connect
-		(at 120.65 110.49)
-		(uuid "f57b1ece-b205-4b78-bc58-9e40a3a282b0")
 	)
 	(wire
 		(pts
@@ -8240,7 +8244,7 @@
 	)
 	(wire
 		(pts
-			(xy 34.29 191.77) (xy 40.64 191.77)
+			(xy 34.29 191.77) (xy 38.1 191.77)
 		)
 		(stroke
 			(width 0)
@@ -9250,6 +9254,16 @@
 	)
 	(wire
 		(pts
+			(xy 130.81 110.49) (xy 120.65 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b519ec03-66ba-4767-89b5-92c3815d895c")
+	)
+	(wire
+		(pts
 			(xy 71.12 41.91) (xy 71.12 43.18)
 		)
 		(stroke
@@ -10150,6 +10164,16 @@
 	)
 	(wire
 		(pts
+			(xy 38.1 191.77) (xy 40.64 191.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fc8e819c-7fa1-47d2-926d-d678d4661157")
+	)
+	(wire
+		(pts
 			(xy 74.93 85.09) (xy 85.09 85.09)
 		)
 		(stroke
@@ -10337,6 +10361,16 @@
 			(justify left bottom)
 		)
 		(uuid "28e62586-831c-45ef-9b62-2dd6778dcf71")
+	)
+	(label "BTN1"
+		(at 130.81 110.49 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "38e4bf24-c551-47c1-828f-f2781f4273ed")
 	)
 	(label "IN2_A"
 		(at 166.37 78.74 0)
@@ -21970,6 +22004,85 @@
 			(project "stepper-foc-can-1"
 				(path "/7e511d2f-8abe-4907-a647-133ba6c8a8df"
 					(reference "J2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 38.1 191.77 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "fc69caa7-aca9-4092-8a39-7204c865fe83")
+		(property "Reference" "#FLG09"
+			(at 38.1 193.675 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 38.1 196.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 38.1 191.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 38.1 191.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 38.1 191.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "581db60a-3d72-4a2e-9ac3-32830eb0836e")
+		)
+		(instances
+			(project "stepper-foc-can-1"
+				(path "/7e511d2f-8abe-4907-a647-133ba6c8a8df"
+					(reference "#FLG09")
 					(unit 1)
 				)
 			)

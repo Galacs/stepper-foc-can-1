@@ -28,7 +28,16 @@
     "equivalence_files": []
   },
   "erc": {
-    "erc_exclusions": [],
+    "erc_exclusions": [
+      [
+        "pin_to_pin|1168400|1016000|5953612e-0e1d-43f1-9f5b-948222a46222|581db60a-3d72-4a2e-9ac3-32830eb0836e|/7e511d2f-8abe-4907-a647-133ba6c8a8df/8e42ab5e-b2ac-4617-9b8b-7bb81c6c35e1|/7e511d2f-8abe-4907-a647-133ba6c8a8df/8e42ab5e-b2ac-4617-9b8b-7bb81c6c35e1|/7e511d2f-8abe-4907-a647-133ba6c8a8df",
+        ""
+      ],
+      [
+        "pin_to_pin|1168400|1016000|5953612e-0e1d-43f1-9f5b-948222a46222|5953612e-0e1d-43f1-9f5b-948222a46222|/7e511d2f-8abe-4907-a647-133ba6c8a8df/0e6f64a8-6e8e-4ac8-9891-7840f5dbe0f5|/7e511d2f-8abe-4907-a647-133ba6c8a8df/0e6f64a8-6e8e-4ac8-9891-7840f5dbe0f5|/7e511d2f-8abe-4907-a647-133ba6c8a8df/8e42ab5e-b2ac-4617-9b8b-7bb81c6c35e1",
+        ""
+      ]
+    ],
     "meta": {
       "version": 0
     },
@@ -464,7 +473,7 @@
         "uuid": "7e511d2f-8abe-4907-a647-133ba6c8a8df"
       }
     ],
-    "used_designators": "#PWR1-17,#PWR19-77,Y1-2,#FLG1-2,#FLG8,C1-41,U1-11,D1-5,D9,D11,M1,R1-15,TP1,TP4-7,JP2,J1-6,SW1-3,FB1,L1",
+    "used_designators": "#PWR1-17,#PWR19-77,Y1-2,#FLG1-2,#FLG8-9,C1-41,U1-11,D1-5,D9,D11,M1,R1-15,TP1,TP4-7,JP2,J1-6,SW1-3,FB1,L1",
     "variants": []
   },
   "sheets": [
