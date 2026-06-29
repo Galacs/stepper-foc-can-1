@@ -4,6 +4,12 @@
 	(generator_version "10.0")
 	(uuid "d905db66-1357-4be0-b188-250244898384")
 	(paper "A4")
+	(title_block
+		(title "Stepper FOC CAN 1")
+		(date "2026-04-11")
+		(rev "01")
+		(company "Rémi Ait-Younes")
+	)
 	(lib_symbols
 		(symbol "Amplifier_Current:INA241A3xDDF"
 			(pin_names

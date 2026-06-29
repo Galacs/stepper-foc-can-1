@@ -4,6 +4,12 @@
 	(generator_version "10.0")
 	(uuid "7e511d2f-8abe-4907-a647-133ba6c8a8df")
 	(paper "A4")
+	(title_block
+		(title "Stepper FOC CAN 1")
+		(date "2026-04-11")
+		(rev "01")
+		(company "Rémi Ait-Younes")
+	)
 	(lib_symbols
 		(symbol "Connector:Conn_01x04_Pin"
 			(pin_names
