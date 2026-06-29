@@ -872,7 +872,7 @@
 				)
 			)
 			(property "Value" "DRV8874"
-				(at 8.89 13.97 0)
+				(at 9.398 13.97 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -1232,6 +1232,25 @@
 						)
 					)
 					(number "16"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -15.24 90)
+					(length 2.54)
+					(hide yes)
+					(name "EPAD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "17"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3482,7 +3501,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 151.13 100.6348 0)
 			(hide yes)
 			(show_name no)
@@ -3526,7 +3545,7 @@
 				)
 			)
 		)
-		(property "JLCPCB Part #" "C21122"
+		(property "JLCPCB Part #" "C1532"
 			(at 147.32 101.6 90)
 			(hide yes)
 			(show_name no)
@@ -3537,7 +3556,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Samsung Electro-Mechanics "
+		(property "Manufacturer" "FH (Guangdong Fenghua Advanced Tech)"
 			(at 147.32 101.6 90)
 			(hide yes)
 			(show_name no)
@@ -3548,29 +3567,7 @@
 				)
 			)
 		)
-		(property "Manufacturer Part Number" "CL10B223KB8NNNC"
-			(at 147.32 101.6 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "KLC_S3.3" ""
-			(at 147.32 101.6 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "KLC_S4.1" ""
+		(property "Manufacturer Part Number" "0402B223K500NT"
 			(at 147.32 101.6 90)
 			(hide yes)
 			(show_name no)
@@ -4723,6 +4720,9 @@
 		)
 		(pin "5"
 			(uuid "337a5706-9201-49d3-b54b-2c16b67ebe99")
+		)
+		(pin "17"
+			(uuid "075b19ce-9dc1-412f-8193-55fef9f0270c")
 		)
 		(instances
 			(project "stepper-foc-can-1"
