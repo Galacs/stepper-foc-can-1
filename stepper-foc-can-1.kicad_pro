@@ -464,13 +464,21 @@
         "uuid": "7e511d2f-8abe-4907-a647-133ba6c8a8df"
       }
     ],
-    "used_designators": "L1,SW1-3,J1-2,J4-6,JP2,TP1,TP4,R1-6,R8-11,R13,D1-5,D9,D11,C1-31,#FLG1-2,#FLG8,Y1-2,FB1,#PWR1-17,#PWR19-50,#PWR67,#PWR69-73,#PWR75,U1-6,U9",
+    "used_designators": "#PWR1-17,#PWR19-77,Y1-2,#FLG1-2,#FLG8,C1-41,U1-11,D1-5,D9,D11,M1,R1-15,TP1,TP4-7,JP2,J1-6,SW1-3,FB1,L1",
     "variants": []
   },
   "sheets": [
     [
       "7e511d2f-8abe-4907-a647-133ba6c8a8df",
       "stepper-foc-can-1"
+    ],
+    [
+      "0e6f64a8-6e8e-4ac8-9891-7840f5dbe0f5",
+      "H-bridge A"
+    ],
+    [
+      "8e42ab5e-b2ac-4617-9b8b-7bb81c6c35e1",
+      "H-bridge B"
     ]
   ],
   "text_variables": {},
