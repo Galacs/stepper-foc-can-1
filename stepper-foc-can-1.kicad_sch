@@ -8426,6 +8426,16 @@
 	)
 	(wire
 		(pts
+			(xy 49.53 151.13) (xy 49.53 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2e6cec02-a04a-46a8-8f55-d6b6779d7460")
+	)
+	(wire
+		(pts
 			(xy 185.42 138.43) (xy 186.69 138.43)
 		)
 		(stroke
@@ -9606,6 +9616,16 @@
 	)
 	(wire
 		(pts
+			(xy 49.53 142.24) (xy 49.53 143.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9486174d-5919-4186-90b8-4b7540b1f270")
+	)
+	(wire
+		(pts
 			(xy 111.76 45.72) (xy 118.11 45.72)
 		)
 		(stroke
@@ -9633,6 +9653,16 @@
 			(type default)
 		)
 		(uuid "958bebd9-a603-4bf3-80a6-5294895bb15b")
+	)
+	(wire
+		(pts
+			(xy 49.53 133.35) (xy 49.53 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "96092abe-ed01-49bd-8ae6-f1527b6bf089")
 	)
 	(wire
 		(pts
@@ -16552,6 +16582,83 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+3V3")
+		(at 49.53 133.35 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "5cdae23e-08c2-4c02-a254-80476c18cd6b")
+		(property "Reference" "#PWR070"
+			(at 49.53 137.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 49.53 129.286 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 49.53 133.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 49.53 133.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 49.53 133.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "4ea151fe-5eb4-4fbd-82b7-0220b201bf5a")
+		)
+		(instances
+			(project "stepper-foc-can-1"
+				(path "/7e511d2f-8abe-4907-a647-133ba6c8a8df"
+					(reference "#PWR070")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 229.87 134.62 0)
 		(unit 1)
@@ -20584,6 +20691,131 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 49.53 138.43 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "a602444e-6e8f-4770-abbb-5e8aabd67ea2")
+		(property "Reference" "R14"
+			(at 52.07 137.1599 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "5k1"
+			(at 52.07 139.6999 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 47.752 138.43 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 49.53 138.43 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 49.53 138.43 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Uniroyal Elec"
+			(at 49.53 138.43 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Part Number" "0402WGF5101TCE"
+			(at 49.53 138.43 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Basic" "Y"
+			(at 49.53 138.43 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLCPCB Part #" "C25905"
+			(at 49.53 138.43 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "29a9c46b-2005-4289-8682-d5342625dd70")
+		)
+		(pin "2"
+			(uuid "091b4d06-e0f3-4cc9-96b3-a73b4489f13e")
+		)
+		(instances
+			(project "stepper-foc-can-1"
+				(path "/7e511d2f-8abe-4907-a647-133ba6c8a8df"
+					(reference "R14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:PWR_FLAG")
 		(at 198.12 138.43 180)
 		(unit 1)
@@ -20803,6 +21035,143 @@
 			(project "stepper-foc-can-1"
 				(path "/7e511d2f-8abe-4907-a647-133ba6c8a8df"
 					(reference "C4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED")
+		(at 49.53 147.32 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "aef69cc5-eab2-4c93-b184-0f5cda0a180a")
+		(property "Reference" "D7"
+			(at 53.34 147.6374 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "GREEN"
+			(at 53.34 150.1774 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_0805_2012Metric"
+			(at 49.53 147.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 49.53 147.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 49.53 147.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 49.53 147.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Hubei KENTO Elec "
+			(at 49.53 147.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Part Number" "KT-0805G"
+			(at 49.53 147.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Basic" "Y"
+			(at 49.53 147.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLCPCB Part #" "C2297"
+			(at 49.53 147.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "8bfee098-9bb8-43ea-bb8f-f5400f75d2a7")
+		)
+		(pin "2"
+			(uuid "9be01777-2a85-4973-b9df-0988d2091a93")
+		)
+		(instances
+			(project "stepper-foc-can-1"
+				(path "/7e511d2f-8abe-4907-a647-133ba6c8a8df"
+					(reference "D7")
 					(unit 1)
 				)
 			)
@@ -21399,6 +21768,84 @@
 			(project "stepper-foc-can-1"
 				(path "/7e511d2f-8abe-4907-a647-133ba6c8a8df"
 					(reference "C2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 49.53 152.4 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "b8acf965-97e7-41d6-b41b-9472b1227e9f")
+		(property "Reference" "#PWR069"
+			(at 49.53 158.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 49.53 156.718 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 49.53 152.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 49.53 152.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 49.53 152.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "789e57a4-6c2a-4ed6-ae6f-13f1292b069d")
+		)
+		(instances
+			(project "stepper-foc-can-1"
+				(path "/7e511d2f-8abe-4907-a647-133ba6c8a8df"
+					(reference "#PWR069")
 					(unit 1)
 				)
 			)
