@@ -10864,6 +10864,16 @@
 		)
 		(uuid "1434c25f-45e3-404d-be18-f1129b9e9714")
 	)
+	(label "~{SLEEP_B}"
+		(at 130.81 77.47 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "215658b3-8e0c-466a-88b3-0ae612c323ce")
+	)
 	(label "IN2_A"
 		(at 74.93 92.71 0)
 		(effects
@@ -10902,7 +10912,7 @@
 			)
 			(justify right bottom)
 		)
-		(uuid "341c7452-2d8c-45bd-a714-92721292b758")
+		(uuid "3b2f5001-c755-439e-a564-0d9074f998bc")
 	)
 	(label "IN2_A"
 		(at 166.37 78.74 0)
@@ -10983,16 +10993,6 @@
 			(justify left bottom)
 		)
 		(uuid "413873ff-2985-40b2-81b1-801028080439")
-	)
-	(label "~{SLEEP_B}"
-		(at 130.81 77.47 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "4587752e-653a-42b9-a951-ec874d1d2bde")
 	)
 	(label "ENC_I"
 		(at 279.4 102.87 180)
