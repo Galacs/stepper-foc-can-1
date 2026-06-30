@@ -7741,6 +7741,10 @@
 		(uuid "2112d9fd-55e0-4cd3-af10-1e82f045ebbf")
 	)
 	(no_connect
+		(at 120.65 80.01)
+		(uuid "2e53dc3d-1a30-43e8-8f79-cffb99165b37")
+	)
+	(no_connect
 		(at 271.78 110.49)
 		(uuid "44728c34-3c23-48f7-a268-9fc4272f983b")
 	)
@@ -7811,10 +7815,6 @@
 	(no_connect
 		(at 85.09 110.49)
 		(uuid "ec084a54-90cc-46ee-ba50-e28026e0b58f")
-	)
-	(no_connect
-		(at 120.65 97.79)
-		(uuid "ede8e28c-a01d-4ee1-bada-1004d4ee1b4f")
 	)
 	(no_connect
 		(at 85.09 72.39)
@@ -8136,6 +8136,16 @@
 	)
 	(wire
 		(pts
+			(xy 120.65 97.79) (xy 130.81 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "18b2bf3a-9f3b-48b0-b6d0-801b668bd86e")
+	)
+	(wire
+		(pts
 			(xy 143.51 138.43) (xy 143.51 139.7)
 		)
 		(stroke
@@ -8393,16 +8403,6 @@
 			(type default)
 		)
 		(uuid "2c3c08fa-cde2-4de0-a391-ef419d1e3e66")
-	)
-	(wire
-		(pts
-			(xy 120.65 80.01) (xy 130.81 80.01)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2c5bb6ff-33b7-4d7d-b1de-4402338b78fe")
 	)
 	(wire
 		(pts
@@ -11124,6 +11124,16 @@
 		)
 		(uuid "0d9a6d65-3e9f-4934-b3f2-a55efa9dce82")
 	)
+	(label "BTN1"
+		(at 130.81 97.79 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "0e49bdb7-f737-429e-a1f5-819ae827f1e2")
+	)
 	(label "NRST"
 		(at 73.66 59.69 0)
 		(effects
@@ -11394,16 +11404,6 @@
 		)
 		(uuid "6db1c56c-f8e3-4d9b-b2a4-ea388643e3e5")
 	)
-	(label "BTN1"
-		(at 129.54 130.81 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "70a9614e-5e1e-41c2-bd2c-9a193c291954")
-	)
 	(label "SPI_CLK"
 		(at 236.22 102.87 0)
 		(effects
@@ -11493,6 +11493,16 @@
 			(justify right bottom)
 		)
 		(uuid "92c576fe-7457-4cb5-96eb-6baa351fabdf")
+	)
+	(label "BTN2"
+		(at 129.54 130.81 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "956484ca-4fb7-4757-ae27-e6e3508d337b")
 	)
 	(label "~{SLEEP_A}"
 		(at 129.54 120.65 180)
@@ -11663,16 +11673,6 @@
 			(justify right bottom)
 		)
 		(uuid "df1d98c3-6dfd-479e-b765-36991ec3bdd9")
-	)
-	(label "BTN2"
-		(at 130.81 80.01 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "df69cfe7-fb82-4619-b2aa-1fc6f6a5c98e")
 	)
 	(label "SNS_A"
 		(at 129.54 125.73 180)
